@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Register</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
 </head>
+
 <body>
 
 <h1>Register</h1>
@@ -40,24 +44,27 @@
 	</label>
 
 	<div>
-		<label>
-			Birthday:
-			<select name="month">
-				<option>Month</option>	
-				<option value="5">May</option>	
-				<option value="6">Jun</option>	
-			</select>
-			<select name="day">
-				<option>Day</option>	
-				<option value="21">21</option>	
-				<option value="22">22</option>	
-			</select>
-			<select name="year">
-				<option>Year</option>	
-				<option value="1942">1942</option>	
-				<option value="1942">1943</option>	
-			</select>		
-		</label>
+		Birthday:
+		<label for="month"></label>
+		<select name="month" id="month">
+			<option>Month</option>	
+			<option value="5">May</option>	
+			<option value="6">Jun</option>	
+		</select>
+		
+		<label for="day"></label>
+		<select name="day" id="day">
+			<option>Day</option>	
+			<option value="21">21</option>	
+			<option value="22">22</option>	
+		</select>
+		
+		<label for="year"></label>
+		<select name="year" id="year">
+			<option>Year</option>	
+			<option value="1942">1942</option>	
+			<option value="1942">1943</option>	
+		</select>		
 	</div>
 	
 	<div>
