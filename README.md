@@ -1,4 +1,4 @@
-# cc-typescript-maps
+# cc-webdev
 
 This repo consists of me working on miscellaneous projects using HTML.
 
