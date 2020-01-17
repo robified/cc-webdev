@@ -1,0 +1,10 @@
+.nbar {
+    background: #4ebceb;
+}
+
+#header {
+    background: url(https://images.unsplash.com/photo-1513257027570-b3f9c5f5442d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+        center right;
+    /* background: url(https://images.unsplash.com/photo-1513257027570-b3f9c5f5442d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) */
+    /* center center / cover no-repeat; */
+}
